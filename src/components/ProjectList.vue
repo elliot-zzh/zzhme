@@ -39,7 +39,26 @@
             ></span>
           </a>
         </div>
-        <div class="mt-0.9rem ml-1.3rem">{{ item.description }}</div>
+        <div class="mt-0.9rem ml-1.3rem" v-if="Array.isArray(item.description)">
+          <div v-for="(line, index) in item.description" :key="index" class="m-3px">
+            <template v-if="typeof line === 'string' && line.startsWith('#')">
+              <b class="font-800">#</b>
+              <em style="font-style: italic">{{ line.slice(1) }}</em>
+            </template>
+            <template v-else>
+              {{ line }}
+            </template>
+          </div>
+        </div>
+        <div class="mt-0.9rem ml-1.3rem" v-else>
+          <template v-if="typeof item.description === 'string' && item.description.startsWith('#')">
+            <b>#</b>
+            <em style="font-style: italic">{{ item.description.slice(1) }}</em>
+          </template>
+          <template v-else>
+            {{ item.description }}
+          </template>
+        </div>
       </div>
     </div>
   </div>
