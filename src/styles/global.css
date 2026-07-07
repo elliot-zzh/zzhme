@@ -146,14 +146,15 @@ nav>* {
 }
 
 .badge-icon-down {
-  width: 1.1em;
-  height: 1.1em;
-  transform: translateY(3px);
+  width: 1em;
+  height: 1em;
+  transform: translateY(0.25em);
 }
 
 .badge-icon {
-  width: 1.1em;
-  height: 1.1em;
+  width: 1em;
+  height: 1em;
+  transform: translateY(0.15em);
 }
 
 p a,
