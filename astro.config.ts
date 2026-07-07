@@ -33,6 +33,6 @@ export default defineConfig({
     vue(),
     mdx()
   ],
-  output: 'server',
+  output: 'static',
   adapter: netlify()
 })
