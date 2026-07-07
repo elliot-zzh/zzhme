@@ -21,9 +21,10 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.496",
+    "@unocss/astro": "^66.7.4",
     "prettier": "^3.9.4",
     "prettier-plugin-astro": "^0.13.0",
-    "unocss": "^0.58.9",
+    "unocss": "^66.7.4",
     "vitest": "^1.6.1"
   }
 }
