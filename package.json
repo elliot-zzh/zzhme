@@ -11,20 +11,20 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^7.0.2",
-    "@astrojs/netlify": "^8.1.1",
-    "@astrojs/vue": "^7.0.1",
+    "@astrojs/mdx": "^7.0.8",
+    "@astrojs/netlify": "^8.2.5",
+    "@astrojs/vue": "^7.0.2",
     "@vueuse/core": "^10.11.1",
-    "astro": "^7.0.6",
-    "dayjs": "^1.11.21",
-    "vue": "^3.5.39"
+    "astro": "^7.3.2",
+    "dayjs": "^1.11.23",
+    "vue": "^3.5.42"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.496",
-    "@unocss/astro": "^66.7.4",
-    "prettier": "^3.9.4",
+    "@iconify/json": "^2.2.527",
+    "@unocss/astro": "^66.10.2",
+    "prettier": "^3.9.6",
     "prettier-plugin-astro": "^0.13.0",
-    "unocss": "^66.7.4",
+    "unocss": "^66.10.2",
     "vitest": "^1.6.1"
   }
 }
