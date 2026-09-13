@@ -34,5 +34,11 @@ export default defineConfig({
     mdx()
   ],
   output: 'static',
-  adapter: netlify()
+  adapter: netlify({
+    devFeatures: {
+      edgeFunctions: false,
+      environmentVariables: true,
+      images: true,
+    },
+  })
 })
