@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config'
 import UnoCSS from 'unocss/astro'
-import { presetUno, presetIcons } from 'unocss'
+import { presetIcons, presetWind3 } from 'unocss'
 import vue from '@astrojs/vue'
 import mdx from '@astrojs/mdx'
 import netlify from '@astrojs/netlify/functions'
@@ -17,7 +17,7 @@ export default defineConfig({
             display: 'inline-block'
           }
         }),
-        presetUno()
+        presetWind3,
       ],
       theme: {
         colors: {
