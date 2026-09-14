@@ -1,10 +1,10 @@
 ---
 import BasePage from './BasePage.astro'
 
-const { frontmatter } = Astro.props
+const { title } = Astro.props
 ---
 
-<BasePage title={frontmatter.title}>
+<BasePage title={title}>
   <div class="ma p-8% max-w-1100px min-h-80vh">
     <slot />
   </div>
