@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config'
 import UnoCSS from 'unocss/astro'
 import vue from '@astrojs/vue'
 import mdx from '@astrojs/mdx'
-import netlify from '@astrojs/netlify/functions'
+import netlify from '@astrojs/netlify'
 
 export default defineConfig({
   site: 'https://zzhme.netlify.app',
