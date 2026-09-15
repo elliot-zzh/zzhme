@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^7.0.8",
-    "@astrojs/netlify": "^8.2.5",
     "@astrojs/vue": "^7.0.2",
     "@vueuse/core": "^10.11.1",
     "astro": "^7.3.2",
